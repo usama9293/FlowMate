@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-FlowMate.Worker-573d5841-207c-4b91-b5f3-989e9efdcfad</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlowMate.Application\FlowMate.Application.csproj" />
+    <ProjectReference Include="..\FlowMate.Infrastructure\FlowMate.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

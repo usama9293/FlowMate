@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="FlowMate.API/FlowMate.API.csproj" />
+  <Project Path="FlowMate.Application/FlowMate.Application.csproj" />
+  <Project Path="FlowMate.Domain/FlowMate.Domain.csproj" />
+  <Project Path="FlowMate.Infrastructure/FlowMate.Infrastructure.csproj" />
+  <Project Path="FlowMate.Worker/FlowMate.Worker.csproj" />
+</Solution>
